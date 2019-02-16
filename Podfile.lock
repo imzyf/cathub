@@ -1,24 +1,56 @@
 PODS:
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - R.swift (5.0.0):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.0)
+  - Reveal-SDK (20)
+  - SwifterSwift (4.6.0):
+    - SwifterSwift/AppKit (= 4.6.0)
+    - SwifterSwift/CoreGraphics (= 4.6.0)
+    - SwifterSwift/CoreLocation (= 4.6.0)
+    - SwifterSwift/Foundation (= 4.6.0)
+    - SwifterSwift/MapKit (= 4.6.0)
+    - SwifterSwift/SpriteKit (= 4.6.0)
+    - SwifterSwift/SwiftStdlib (= 4.6.0)
+    - SwifterSwift/UIKit (= 4.6.0)
+  - SwifterSwift/AppKit (4.6.0)
+  - SwifterSwift/CoreGraphics (4.6.0)
+  - SwifterSwift/CoreLocation (4.6.0)
+  - SwifterSwift/Foundation (4.6.0)
+  - SwifterSwift/MapKit (4.6.0)
+  - SwifterSwift/SpriteKit (4.6.0)
+  - SwifterSwift/SwiftStdlib (4.6.0)
+  - SwifterSwift/UIKit (4.6.0)
   - SwiftLint (0.29.2)
 
 DEPENDENCIES:
+  - IGListKit (~> 3.0)
   - R.swift (= 5.0.0)
+  - Reveal-SDK
+  - SwifterSwift (~> 4.6.0)
   - SwiftLint (= 0.29.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - IGListKit
     - R.swift
     - R.swift.Library
+    - Reveal-SDK
+    - SwifterSwift
     - SwiftLint
 
 SPEC CHECKSUMS:
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   R.swift: f88c7d7d48a2be4dffa132dde1b3d389620310eb
   R.swift.Library: 0bf390e729bc10bb2c9e4fb78bd043164a7be4ff
+  Reveal-SDK: 43206a57f575632fd304e85385cc259b5d359e32
+  SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
   SwiftLint: 47df60bdea6e7e902b193b6596db8683aafd86a3
 
-PODFILE CHECKSUM: 4c41fc74c62af57129eab75a76cc20a7ed420137
+PODFILE CHECKSUM: 61c9db06d2fda1b2ddaa9b2d9a06263212354687
 
 COCOAPODS: 1.6.0.beta.2

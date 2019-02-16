@@ -11,7 +11,14 @@ target 'cathub' do
 
   pod 'R.swift', '5.0.0'
   pod 'SwiftLint', '0.29.2'
+  
+  pod 'IGListKit', '~> 3.0'  # https://github.com/Instagram/IGListKit
 
+  pod 'SwifterSwift', '~> 4.6.0'  # https://github.com/SwifterSwift/SwifterSwift
+  
+  pod 'Reveal-SDK', :configurations => ['Debug']
+
+  
   target 'cathubTests' do
     inherit! :search_paths
   end

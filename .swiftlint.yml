@@ -1,5 +1,7 @@
 disabled_rules:
-  - todo
+#  - todo
+  - force_cast
+  - trailing_whitespace
 opt_in_rules:
   - attributes
   - closure_end_indentation
