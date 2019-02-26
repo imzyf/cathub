@@ -41,3 +41,9 @@ bundle exec pod install
 * Models - model objects
 * Modules - contains app modules (UI + Code)
 * Helpers - protocols, extension and utility classes
+
+## 命名规范
+
+### 缩写规范
+
+- `ViewController` -> `VC`

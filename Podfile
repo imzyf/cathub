@@ -11,11 +11,22 @@ target 'cathub' do
 
   pod 'R.swift', '5.0.0'
   pod 'SwiftLint', '0.29.2'
-  
-  pod 'IGListKit', '~> 3.0'  # https://github.com/Instagram/IGListKit
-
+ 
   pod 'SwifterSwift', '~> 4.6.0'  # https://github.com/SwifterSwift/SwifterSwift
   
+    pod 'RxDataSources'
+  
+  # Image
+  pod 'Kingfisher', '~> 5.0'
+  
+   pod 'SwiftyJSON'
+  
+   pod 'Moya/RxSwift'
+  
+  pod 'SnapKit'
+
+  #  pod 'Moya-SwiftyJSON', :path => '../myPods/Moya-SwiftyJSON'
+
   pod 'Reveal-SDK', :configurations => ['Debug']
 
   

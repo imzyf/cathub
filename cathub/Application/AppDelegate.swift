@@ -22,9 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Notifications
         notificationsHandler.configure()
 
-        // App structure
-        router.loadMainAppStructure()
+        window?.rootViewController = R.storyboard.main().instantiateInitialViewController()!
+        let sceneCoordinator = SceneCoordinator(window: window!)
+        SceneCoordinator.shared = sceneCoordinator
 
+        sceneCoordinator.transition(to: Scene.main)
         return true
     }
 

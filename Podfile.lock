@@ -1,13 +1,28 @@
 PODS:
-  - IGListKit (3.4.0):
-    - IGListKit/Default (= 3.4.0)
-  - IGListKit/Default (3.4.0):
-    - IGListKit/Diffing
-  - IGListKit/Diffing (3.4.0)
+  - Alamofire (4.8.1)
+  - Differentiator (3.1.0)
+  - Kingfisher (5.1.0)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
   - R.swift (5.0.0):
     - R.swift.Library (~> 5.0.0)
   - R.swift.Library (5.0.0)
+  - Result (4.1.0)
   - Reveal-SDK (20)
+  - RxAtomic (4.4.1)
+  - RxCocoa (4.4.1):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.1):
+    - RxAtomic (~> 4.4)
+  - SnapKit (4.2.0)
   - SwifterSwift (4.6.0):
     - SwifterSwift/AppKit (= 4.6.0)
     - SwifterSwift/CoreGraphics (= 4.6.0)
@@ -26,31 +41,56 @@ PODS:
   - SwifterSwift/SwiftStdlib (4.6.0)
   - SwifterSwift/UIKit (4.6.0)
   - SwiftLint (0.29.2)
+  - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
-  - IGListKit (~> 3.0)
+  - Kingfisher (~> 5.0)
+  - Moya/RxSwift
   - R.swift (= 5.0.0)
   - Reveal-SDK
+  - RxDataSources
+  - SnapKit
   - SwifterSwift (~> 4.6.0)
   - SwiftLint (= 0.29.2)
+  - SwiftyJSON
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - IGListKit
+    - Alamofire
+    - Differentiator
+    - Kingfisher
+    - Moya
     - R.swift
     - R.swift.Library
+    - Result
     - Reveal-SDK
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
+    - SnapKit
     - SwifterSwift
     - SwiftLint
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
-  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  Kingfisher: fcec238063d17404fca89bf0a850583211c4cbf6
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   R.swift: f88c7d7d48a2be4dffa132dde1b3d389620310eb
   R.swift.Library: 0bf390e729bc10bb2c9e4fb78bd043164a7be4ff
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Reveal-SDK: 43206a57f575632fd304e85385cc259b5d359e32
+  RxAtomic: f8d6adc1ccb87a767811269e4875887bc74dbf19
+  RxCocoa: 2f35a76bf8887872e28a1914112395b11b8e0e64
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 92fcf68dfef21f3e2ab1965363d9e7b3d787597e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwifterSwift: 812ffec6f301922f5430e75be3f2939ea3a80024
   SwiftLint: 47df60bdea6e7e902b193b6596db8683aafd86a3
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 61c9db06d2fda1b2ddaa9b2d9a06263212354687
+PODFILE CHECKSUM: a101f12c0830a88d2d527a3cfce66f04582a5131
 
 COCOAPODS: 1.6.0.beta.2
