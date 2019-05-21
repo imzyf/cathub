@@ -12,8 +12,8 @@ class Cat: NSObject {
     var breeds: [Breed]?
     var categories: [Category]?
     var id: String = ""
-    var width: Int = UIScreen.main.bounds.width.int
-    var height: Int = .random(between: UIScreen.main.bounds.width.int, and: UIScreen.main.bounds.width.int * 2)
+    var width: Int = 0
+    var height: Int = 0
     fileprivate var path: String = ""
 
     var url: URL? {
@@ -23,6 +23,9 @@ class Cat: NSObject {
     init(json: JSON) {
         id = json["id"].stringValue
         path = json["url"].stringValue
+        
+        width = 2000
+        height = .random(between: 1000, and: 2000)
     }
     
 }

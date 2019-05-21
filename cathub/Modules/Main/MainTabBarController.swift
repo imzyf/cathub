@@ -17,6 +17,5 @@ class MainTabBarController: TabBarController {
         tabBar.tintColor = .white
         tabBar.barTintColor = .black
         tabBar.backgroundColor = .black
-    }
-
+    } 
 }
